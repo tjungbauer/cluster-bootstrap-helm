@@ -3,7 +3,7 @@ kind: ConsoleNotification
 metadata:
   name: cluster-banner
 spec:
-  text: {{ .Values.consolebanner.text }}
+  text: MGMT
   location: BannerTop
   color: {{ .Values.consolebanner.color }}
   backgroundColor: {{ .Values.consolebanner.backgroundcolor }}
