@@ -3,7 +3,7 @@ kind: ConsoleNotification
 metadata:
   name: cluster-banner
 spec:
-  text: MGMT
+  text: CLUSTER
   location: BannerTop
   color: '#FFFFFF'
-  backgroundColor: '#0088CE'
+  backgroundColor: 'FF0000'
