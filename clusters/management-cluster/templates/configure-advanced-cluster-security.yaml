@@ -7,11 +7,12 @@ metadata:
   labels:
     gitops.ownedBy: cluster-config
   name: configure-advanced-cluster-security
+  namespace: openshift-gitops
 spec:
   destination:
     namespace: stackrox
     server: https://kubernetes.default.svc
-  project: default
+  project: cluster-config
   source:
     path: advanced-cluster-security-operator/instance/overlays/default
     repoURL: https://github.com/redhat-cop/gitops-catalog.git
