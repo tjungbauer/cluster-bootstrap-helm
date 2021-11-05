@@ -1,4 +1,3 @@
-console-banner:
-  text: 'MGMT'
-
-text: 'MGMT'
+console:
+  banner:
+    text: 'MGMT'
