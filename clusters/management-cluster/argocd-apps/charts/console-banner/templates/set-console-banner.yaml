@@ -14,7 +14,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: cluster-config
   source:
-    path: clusters/config/console-banner
+    path: clusters/management-cluster/config/console-banner
     repoURL: 'https://github.com/tjungbauer/cluster-bootstrap-helm'
     targetRevision: main
   syncPolicy:
