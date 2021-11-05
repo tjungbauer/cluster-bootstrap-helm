@@ -10,8 +10,8 @@ spec:
     namespace: default
   project: default
   source:
-    path: apps/
-    repoURL: https://github.com/arthurk/argocd-example-install.git
+    path: charts/apps/
+    repoURL: https://github.com/tjungbauer/cluster-bootstrap-helm
     targetRevision: HEAD
   syncPolicy:
     automated:
