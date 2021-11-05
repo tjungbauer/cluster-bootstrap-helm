@@ -7,7 +7,7 @@ metadata:
   labels:
     gitops.ownedBy: cluster-config
   name: install-advanced-cluster-security
-  namespace: openshift-gitop
+  namespace: openshift-gitops
 spec:
   destination:
     namespace: stackrox
