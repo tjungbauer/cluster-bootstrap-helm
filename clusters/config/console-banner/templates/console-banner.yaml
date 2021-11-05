@@ -3,7 +3,7 @@ kind: ConsoleNotification
 metadata:
   name: cluster-banner
 spec:
-  text: CLUSTER
+  text: {{ .Values.console-banner.text }}
   location: BannerTop
   color: '#FFFFFF'
   backgroundColor: 'FF0000'
