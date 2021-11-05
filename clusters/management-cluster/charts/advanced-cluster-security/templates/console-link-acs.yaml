@@ -1,0 +1,11 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: acs
+spec:
+  href: 'https://<YOUR LINK HERE>/main/dashboard'
+  location: ApplicationMenu
+  text: Advanced Cluster Security
+  applicationMenu:
+    section: Tools
+    imageURL: 'https://<YOUR LINK HERE>/favicon.ico'
