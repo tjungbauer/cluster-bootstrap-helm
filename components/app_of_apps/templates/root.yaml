@@ -1,7 +1,8 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: root
+  name: mgmt_app
+  namespace: openshift-gitops
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
@@ -10,7 +11,7 @@ spec:
     namespace: default
   project: default
   source:
-    path: charts/apps/
+    path: components/argocd_apps
     repoURL: https://github.com/tjungbauer/cluster-bootstrap-helm
     targetRevision: HEAD
   syncPolicy:
