@@ -10,7 +10,7 @@ metadata:
   namespace: openshift-gitops
 spec:
   destination:
-    namespace: stackrox
+    namespace: openshift-operators
     server: https://kubernetes.default.svc
   project: cluster-config
   source:
