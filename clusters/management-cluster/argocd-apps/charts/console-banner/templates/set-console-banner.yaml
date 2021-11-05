@@ -7,14 +7,14 @@ metadata:
   labels:
     app.kubernetes.io/instance: mgmt-app-of-apps
     gitops.ownedBy: cluster-config
-  name: set-console-banner
+  name: set-cluster
   namespace: openshift-gitops
 spec:
   destination:
     server: 'https://kubernetes.default.svc'
   project: cluster-config
   source:
-    path: clusters/management-cluster/config/console-banner
+    path: clusters/management-cluster/config/
     repoURL: 'https://github.com/tjungbauer/cluster-bootstrap-helm'
     targetRevision: main
   syncPolicy:
