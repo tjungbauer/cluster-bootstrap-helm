@@ -1,0 +1,4 @@
+console-banner:
+  text: MGMT
+  color: '#FFFFFF'
+  backgroundcolor: '0088CE'
