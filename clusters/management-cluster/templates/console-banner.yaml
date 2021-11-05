@@ -5,5 +5,5 @@ metadata:
 spec:
   text: MGMT
   location: BannerTop
-  color: {{ .Values.consolebanner.color }}
-  backgroundColor: {{ .Values.consolebanner.backgroundcolor }}
+  color: '#FFFFFF'
+  backgroundColor: '#0088CE'
