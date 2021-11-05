@@ -1,6 +1,6 @@
 console:
   banner:
-    text: 'MGMT'
+    text: 'MGMT2'
     color: '#FFFFFF'
     background: '#0088CE'
     location: 'BannerTop'
