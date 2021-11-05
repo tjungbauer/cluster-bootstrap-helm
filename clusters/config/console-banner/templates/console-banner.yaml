@@ -4,6 +4,6 @@ metadata:
   name: cluster-banner
 spec:
   text: {{ .Values.console.banner.text }}
-  location: BannerTop
-  color: '#FFFFFF'
-  backgroundColor: 'FF0000'
+  location: {{ .Values.console.banner.location }}
+  color: {{ .Values.console.banner.color }}
+  backgroundColor: {{ .Values.console.banner.background }}
