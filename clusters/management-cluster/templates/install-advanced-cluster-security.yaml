@@ -5,13 +5,13 @@ metadata:
     argocd.argoproj.io/compare-options: IgnoreExtraneous
     argocd.argoproj.io/sync-wave: '1'
   labels:
-    gitops.ownedBy: cluster-config
+    gitops.ownedBy: default
   name: install-advanced-cluster-security
 spec:
   destination:
     namespace: stackrox
     server: https://kubernetes.default.svc
-  project: cluster-config
+  project: default
   source:
     path: advanced-cluster-security-operator/operator/overlays/latest
     repoURL: https://github.com/redhat-cop/gitops-catalog.git
